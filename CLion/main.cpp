@@ -1,12 +1,10 @@
 #include <iostream>
-#include <vector>
 
 using namespace std;
 
 int main() {
 
     int array[] = {5, -17, 12, 5, -10, 6, 4, 8, -5, -10, -17, 22, 1};
-    std::vector<int> vec1
 
 
     int length = sizeof(array) / sizeof(array[0]);
@@ -47,5 +45,4 @@ int main() {
     }
 
     return 0;
-
 }
